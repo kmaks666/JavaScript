@@ -1,10 +1,10 @@
 let login = "admin";
-let password = "1234";
+let password = "TheMaster";
 
 switch (login) {
 	case "admin": {
 		switch (password) {
-			case "1234": {
+			case "TheMaster": {
 				console.log("Welcome!");
 			break;
 			}
