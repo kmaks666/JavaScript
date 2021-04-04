@@ -1,7 +1,7 @@
 let login = 'admin';
-let password = "1234";
+let password = "TheMaster";
 if (login == 'admin') {
-	if (password == "1234") {
+	if (password == "TheMaster") {
 		console.log("Welcome!");
 	} else {
 		console.log("Wrong password!");
