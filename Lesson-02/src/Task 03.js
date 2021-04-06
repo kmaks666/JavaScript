@@ -27,12 +27,12 @@ function calculate(a, b, typeOper) {
 						console.log(a + " / " + b + " = " + result);
 					}
 				} catch (err) {
-					console.log("Error! Division by zero");
+					console.log(err);
 				}
 			}
 		}
 	} catch (err) {
-		console.log("Error! Incorrect values.");
+		console.log(err);
 	}
 }
 
